@@ -276,7 +276,7 @@ iframe {
 .wa {
   display: flex;
 }
-a{
+header a{
     text-decoration: none;
     color: white;
 }
