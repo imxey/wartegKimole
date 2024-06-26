@@ -61,7 +61,7 @@ nav a{
 }
 #daftarMakanan{
     position: absolute;
-    top: 20%;
+    top: 15%;
     text-align: center;
     justify-content: center;
 }
@@ -279,4 +279,49 @@ iframe {
 a{
     text-decoration: none;
     color: white;
+}
+.pilihMenuAdmin{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin-left: 9%;
+}
+.menuAdmin1, .menuAdmin2{
+  flex: 1;
+  transition: 1s;
+  margin: 0;
+  padding: 0;
+  width: 5%;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.menuAdmin1:hover, .menuAdmin2:hover{
+  transform: scale(1.2);
+}
+#changeMakanan{
+  width: 60%;
+  height: 60%;
+  padding: 0;
+}
+#changeKontak{
+  width: 50%;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.menuAdmin2{
+  margin-top: 5%;
+}
+#teksAdmin{
+  margin-top: 0;
+}
+.food-grid li{
+  transition: 1s;
+}
+.food-grid li:hover{
+  transform: scale(1.2);
 }

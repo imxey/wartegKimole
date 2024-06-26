@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+    
+        <header>
+            <p id="judul">Kimole Store</p>
+            <nav>
+                <a href="../index.html">Home</a></li>
+                <a href="product.html">Product</a></li>
+                <a href="#">About</a></li>
+                <a href="contact.html">Contact</a></li>
+                <a href="login.html">Login</a></li>
+                <button id="logoutButton">Logout</button></li>
+            </nav>
+        </header>
+        <div class="konten"></div>
+        <div class="formMakanan">
+        <div class="labelFormMakanan">
+            <p>Nama Makanan </p>
+            <p>Harga per item </p>
+            <p>Url gambar makanan </p>
+        </div>
+        <form id="foodForm">
+            <input type="text" id="foodName" required placeholder="Nama Makanan">
+            <input type="number" id="foodPrice" required placeholder="Harga per item">
+            <input type="url" id="foodImageUrl" required placeholder="Url gambar makanan">
+            <button type="submit" id="tambahMakanan">Tambah Makanan</button>
+        </form>
+        
+        
+        </div>
+        <div id="box">
+            <p id="popup">Menu telah berhasil ditambahkan</p>
+            <button id="okTambah">ok</button>
+            
+        </div>
+        <table id="foodTable" border="1">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Harga</th>
+                    <th>Gambar</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="foodTableBody"></tbody>
+        </table>
+        </div>
+        </div>
+    <script src="../script/script.js"></script>
+</body>
+</html>
