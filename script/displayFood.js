@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const li = document.createElement('li');
             li.innerHTML = `
                 <img src="${food.imageUrl}" alt="${food.name}" style="width: 100px; height: auto;">
-                ${food.name} - Rp ${food.price} - ${food.id}
+                ${food.name} - Rp ${food.price} 
             `;
             foodList.appendChild(li);
         });
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const li = document.createElement('li');
             li.innerHTML = `
                 <img src="${food.imageUrl}" alt="${food.name}" onclick="buyFood(${index})" style="width: 100px; height: 100px;"><br>
-                ${food.name} - Rp ${food.price} - ${food.id}
+                ${food.name} - Rp ${food.price} 
             `;
             publicFoodList.appendChild(li);
         });

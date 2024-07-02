@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const foodName = document.getElementById('foodName').value;
         const foodPrice = document.getElementById('foodPrice').value;
         const foodImageUrl = document.getElementById('foodImageUrl').value;
-        const idMakanan = 1;
+        
 
         
 
@@ -63,8 +63,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         let foods = JSON.parse(localStorage.getItem('foods')) || [];
-        foods.push({ name: foodName, price: foodPrice, imageUrl: foodImageUrl, id: idMakanan });
-        idMakanan++;
+        foods.push({ name: foodName, price: foodPrice, imageUrl: foodImageUrl});
+        
         localStorage.setItem('foods', JSON.stringify(foods));
 
         renderFoodList();
