@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
             textStruck += `Total Harga: Rp ${finalPrice}\n`;
             textStruck += `Mohon tunggu konfirmasi dari admin kami melalui telegram`
-            
+            alert(textStruck);
             formIlang.style.display = 'none';
             
             let text = `NOTIFIKASI PEMBELIAN BARU %0A%0APembelian atas nama : %0ANama: ${namaBuyerValue}%0ANo. HP: ${noBuyerValue}%0AAlamat: ${alamatBuyerValue}
