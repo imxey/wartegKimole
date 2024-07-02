@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         foods.forEach((food, index) => {
             const li = document.createElement('li');
             li.innerHTML = `
-                <img src="${food.imageUrl}" alt="${food.name}" onclick="buyFood(${index})" style="width: 100px; height: 100px;"><br>
+                <img src="${food.imageUrl}" alt="${food.name}" onclick="buyFood(${index})" id="gambarMakanan" style="width: 100px; height: 100px;"><br>
                 ${food.name} - Rp ${food.price} 
             `;
             publicFoodList.appendChild(li);
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let finalPrice = purchasedItems.reduce((acc, item) => acc + item.totalPrice, 0);
 
         // Tampilkan total harga ke elemen beli
-        beli.innerHTML = `Total Harga: Rp ${finalPrice}`;
+        beli.innerHTML = `Beli - Total Harga: Rp ${finalPrice}`;
 
         // Tampilkan daftar pembelian
         renderPurchasedItems();
