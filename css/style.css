@@ -366,7 +366,7 @@ textarea{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 70%;
+    margin-top: 50%;
   }
 }
 @media(max-width:244px){
