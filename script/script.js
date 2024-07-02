@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const loginForm = document.getElementById('loginForm');
     const logoutButton = document.getElementById('logoutButton');
     const loginError = document.getElementById('loginError');
-
+    let sisa = 3;
     const validUsername = 'admin';
     const validPassword = 'admin123';
 
@@ -13,13 +13,24 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
-
+        
+        
+        
         if (username === validUsername && password === validPassword) {
             localStorage.setItem('isLoggedIn', 'true');
             window.location.href = '../html/admin.html';
         } else {
-            loginError.textContent = 'Username atau password salah!';
+            sisa--;
+            if(sisa > 0){
+            loginForm.reset();
+            loginError.textContent = 'Username atau password salah! sisa percobaan sebanyak ' + sisa + " kali";
+            }
+            else{
+                loginForm.reset();
+                window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs';
+            }
         }
+        
     });
 
     if (logoutButton) {
@@ -34,12 +45,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Food Form Handling
+  
     foodForm?.addEventListener('submit', function(event) {
         event.preventDefault();
         var box = document.getElementById('box');
         const foodName = document.getElementById('foodName').value;
         const foodPrice = document.getElementById('foodPrice').value;
         const foodImageUrl = document.getElementById('foodImageUrl').value;
+        const idMakanan = 1;
+
+        
 
         // Show confirmation box
         box.style.display = "block";
@@ -48,31 +63,32 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         let foods = JSON.parse(localStorage.getItem('foods')) || [];
-        foods.push({ name: foodName, price: foodPrice, imageUrl: foodImageUrl });
+        foods.push({ name: foodName, price: foodPrice, imageUrl: foodImageUrl, id: idMakanan });
+        idMakanan++;
         localStorage.setItem('foods', JSON.stringify(foods));
 
         renderFoodList();
         foodForm.reset();
     });
-
-    // Rendering the Food List
-    function renderFoodList() {
-        foodTableBody.innerHTML = "";
-        const foods = JSON.parse(localStorage.getItem('foods')) || [];
-        foods.forEach((food, index) => {
-            const tr = document.createElement("tr");
-            tr.innerHTML = `
-                <td>${food.name}</td>
-                <td>${food.price}</td>
-                <td><img src="${food.imageUrl}" alt="${food.name}" width="50"></td>
-                <td>
-                    <button onclick="editFood(${index})">Edit</button>
-                    <button onclick="deleteFood(${index})">Delete</button>
-                </td>
-            `;
-            foodTableBody.appendChild(tr);
-        });
-    }
+        // Rendering the Food List
+        function renderFoodList() {
+            foodTableBody.innerHTML = "";
+            const foods = JSON.parse(localStorage.getItem('foods')) || [];
+            foods.forEach((food, index) => {
+                const tr = document.createElement("tr");
+                tr.innerHTML = `
+                    <td>${food.name}</td>
+                    <td>${food.price}</td>
+                    <td><img src="${food.imageUrl}" alt="${food.name}" width="50"></td>
+                    <td>
+                        <button onclick="editFood(${index})">Edit</button>
+                        <button onclick="deleteFood(${index})">Delete</button>
+                    </td>
+                `;
+                foodTableBody.appendChild(tr);
+            });
+        }
+    
 
     // Deleting a Food Item
     window.deleteFood = function(index) {

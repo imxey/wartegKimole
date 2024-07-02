@@ -326,3 +326,35 @@ transition: 1s;
 .food-grid li:hover{
 transform: scale(1.2);
 }
+hr{
+  padding: 0;
+  margin: 0;
+}
+#loginError {
+  color: black;
+}
+#beliMakanForm {
+  display: flex;
+  flex-direction: row;
+}
+.formIlang{
+  display: none;
+  position: absolute;
+  
+  background-color: white;
+  height: 70vh;
+}
+.label, .masukkan{
+  flex: 1;
+  flex-direction: column;
+  margin-top: 16%;
+  color: black;
+  margin-left: 10%;
+}
+textarea{
+  margin-left: 3.5%;
+}
+.formIlang h2{
+  color: black;
+  text-align: center;
+}

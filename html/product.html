@@ -19,8 +19,26 @@
             </nav>
         </header>
         <div class="konten">
-        <h1 id="daftarMakanan">Menu Makanan<hr></h1>
         <div id="publicFoodList" class="food-grid"></div>
+        <button type="button" id="beli">Beli</button>
+        <ul id="purchasedList"></ul>   
+        <div class="formIlang">
+            <h2>Form Pembelian Makanan</h2>
+            <form id="beliMakanForm">
+                <div class="label">
+                    <p>Nama : </p>
+                    <p>No. Telepon</p>
+                    <p>Alamat : </p>
+                    <button type="submit" id="checkout">Checkout</button>
+                </div>
+                <div class="masukkan">
+                    <input type="text" id="namaBuyer" required placeholder="Masukkan nama anda">
+                    <input type="text" id="noBuyer" required placeholder="Masukkan no. telepon">
+                    <textarea required id="alamatBuyer" placeholder="Masukkan alamat anda"></textarea>
+                    
+                </div>
+            </form>
+        </div>
     </div>
         <script src="../script/displayFood.js"></script>
 </body>
