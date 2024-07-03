@@ -142,8 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
             text += `Total Harga: Rp ${finalPrice}%0A%0A`;
             text += "Mohon untuk konfirmasi pembelian pada nomor yang tertera!";
             purchasedItems = []; // Kosongkan array
-            localStorage.removeItem('purchasedItems'); // Hapus dari localStorage
-            console.log(localStorage.getItem('purchasedItems'));             
+            localStorage.removeItem('purchasedItems'); // Hapus dari localStorage      
             renderPurchasedItems(); // Perbarui tampilan
             beli.innerHTML = 'Beli'; // Atur kembali teks tombol beli
             // Kirim pesan ke Telegram jika diperlukan
