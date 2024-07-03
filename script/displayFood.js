@@ -130,8 +130,9 @@ document.addEventListener('DOMContentLoaded', function() {
             textStruck += `Total Harga: Rp ${finalPrice}\n`;
             textStruck += `Mohon tunggu konfirmasi dari admin kami melalui telegram`
             alert(textStruck);
-            checkout.reset();
             formIlang.style.display = 'none';
+            document.getElementById('beliMakanForm').reset();
+            
             
             let text = `NOTIFIKASI PEMBELIAN BARU %0A%0APembelian atas nama : %0ANama: ${namaBuyerValue}%0ANo. HP: ${noBuyerValue}%0AAlamat: ${alamatBuyerValue}
             %0A%0ARincian Pembelian :%0A`
@@ -140,16 +141,17 @@ document.addEventListener('DOMContentLoaded', function() {
             });
             text += `Total Harga: Rp ${finalPrice}%0A%0A`;
             text += "Mohon untuk konfirmasi pembelian pada nomor yang tertera!";
-
+            purchasedItems = []; // Kosongkan array
+            localStorage.removeItem('purchasedItems'); // Hapus dari localStorage
+            console.log(localStorage.getItem('purchasedItems'));             
+            renderPurchasedItems(); // Perbarui tampilan
+            beli.innerHTML = 'Beli'; // Atur kembali teks tombol beli
             // Kirim pesan ke Telegram jika diperlukan
             const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${text}`;
             let api = new XMLHttpRequest();
             api.open('GET', url, true);
             api.send();
-            purchasedItems = []; // Kosongkan array
-            localStorage.removeItem('purchasedItems'); // Hapus dari localStorage
-            renderPurchasedItems(); // Perbarui tampilan
-            beli.innerHTML = 'Total Harga: Rp 0'; // Atur kembali teks tombol beli
+            
         });
     });
 
