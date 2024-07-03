@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const namaBuyerValue = document.getElementById('namaBuyer').value;
             const noBuyerValue = document.getElementById('noBuyer').value;
             const alamatBuyerValue = document.getElementById('alamatBuyer').value;
-
+            
             // Hitung ulang total harga semua item yang dibeli
             let finalPrice = purchasedItems.reduce((acc, item) => acc + item.totalPrice, 0);
 
@@ -130,6 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
             textStruck += `Total Harga: Rp ${finalPrice}\n`;
             textStruck += `Mohon tunggu konfirmasi dari admin kami melalui telegram`
             alert(textStruck);
+            checkout.reset();
             formIlang.style.display = 'none';
             
             let text = `NOTIFIKASI PEMBELIAN BARU %0A%0APembelian atas nama : %0ANama: ${namaBuyerValue}%0ANo. HP: ${noBuyerValue}%0AAlamat: ${alamatBuyerValue}
