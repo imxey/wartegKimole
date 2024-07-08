@@ -4,9 +4,18 @@ document.addEventListener("DOMContentLoaded", function () {
   const inputWa = document.getElementById("inputWa");
   const formChangeKontak = document.getElementById("formChangeKontak");
 
-  inputWa.value = localStorage.getItem("inputWa") || "";
-  inputFb.value = localStorage.getItem("inputFb") || "";
-  inputMaps.value = localStorage.getItem("inputMaps") || "";
+
+  if(localStorage.getItem("inputWa") != null){
+    inputWa.value = localStorage.getItem("inputWa");
+}
+
+  if(localStorage.getItem("inputMaps")!= null){
+    inputMaps.value = localStorage.getItem("inputMaps");
+}
+
+  if(localStorage.getItem("inputFb")!= null){
+    inputFb.value = localStorage.getItem("inputFb");
+}
 
   formChangeKontak.addEventListener("submit", function (event) {
     event.preventDefault();
