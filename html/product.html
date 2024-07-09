@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Makanan</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript"
+	src="https://app.sandbox.midtrans.com/snap/snap.js"
+    data-client-key="SB-Mid-client-33v5jXTdeieIDSIb"></script>
 </head>
 <body>
     <div class="container">
@@ -17,7 +20,9 @@
                 <a href="login.html">Login</a></li>
             </nav>
         </header>
+        <div id = "snap-container"></div>
         <div class="konten">
+        
         <div id="publicFoodList" class="food-grid"></div>
         <button type="button" id="beli">Beli</button>
         <ul id="purchasedList"></ul>   
@@ -27,12 +32,14 @@
                 <div class="label">
                     <p>Nama : </p>
                     <p>No. Telepon</p>
+                    <p>Email : </p>
                     <p>Alamat : </p>
                     <button type="submit" id="checkout">Checkout</button>
                 </div>
                 <div class="masukkan">
                     <input type="text" id="namaBuyer" required placeholder="Masukkan nama anda">
-                    <input type="text" id="noBuyer" required placeholder="Masukkan no. telepon">
+                    <input type="number" id="noBuyer" required placeholder="Masukkan no. telepon">
+                    <input type="email" id="emailBuyer" required placeholder="Alamat Email">
                     <textarea required id="alamatBuyer" placeholder="Masukkan alamat anda"></textarea>
                     
                 </div>

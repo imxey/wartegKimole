@@ -1,1 +1,164 @@
-const _0x12c3ae=_0x1e9e;function _0x4c80(){const _0x33c7d0=['setItem','foodTableBody','onsubmit','onclick','true','display','5350632oWxagR','style','https://lh3.googleusercontent.com/drive-viewer/AKGpihbAe2VuU8JSK6QojZlQF5F6nLlUFGIK3_8w561GsYvWLjuyF28ByUk00EhQ_GlUTDvnPn7S9Lbu3gApNs2xeeQSw6TrgFINsA=w1920-h948','push','3375mjwJcz','admin123','innerHTML','https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs','756876QgLxHg','https://lh3.googleusercontent.com/drive-viewer/AKGpihZ220WVc6DuOdwoqAtahxiSapU1u7R6xJ2jLQVYDa8hTc8CguIYr1rZ0eBQZP2K5CctCs1Ph7PNRmWUVWWF0Z8a8eWNf9COhes=w1920-h948',')\x22>Edit</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22deleteFood(','isLoggedIn','https://lh3.googleusercontent.com/drive-viewer/AKGpihaMaDbfKuKOdzMSD3YZNGqS1qsf1lgzk8T2-VlWCR0CQ8eUZ-lpWHCVobZ5sEZ-Ijay66LXOtPw6Yt2e6GIurPhW_RC2Ot8ofk=w1920-h948',')\x22>Delete</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','username','getItem','click','getElementById','removeItem','260PlpRaS','parse','../html/login.html','\x22\x20alt=\x22','value','imageUrl','Tempe\x20Orek','block','stringify','addEventListener','admin','10dKqHSG','forEach','94411rQzAmt','tambahMakanan','Telur\x20Balado','loginError','Tambah\x20Makanan','editFood','foods','5994360arkquz','preventDefault','location','https://lh3.googleusercontent.com/drive-viewer/AKGpihZSeYx7N4NLjHSwofImcakrB8A4a_qITtPm_0I1k2_EkzWPAznQ9rDehaRMaUwkhZcRRB6ASdjcjuN1bIIVvah2uMtPUx0xC_o=w1920-h948','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td><img\x20src=\x22','href','password','1589833ESSied','foodName','DOMContentLoaded','reset','3623769DnYAWk','foodPrice','22WBayxq','Ayam\x20Goreng','price','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>','../html/admin.html','deleteFood','foodImageUrl','submit'];_0x4c80=function(){return _0x33c7d0;};return _0x4c80();}function _0x1e9e(_0x187e98,_0x337f40){const _0x4c805b=_0x4c80();return _0x1e9e=function(_0x1e9e75,_0x21396a){_0x1e9e75=_0x1e9e75-0x186;let _0x35c8c9=_0x4c805b[_0x1e9e75];return _0x35c8c9;},_0x1e9e(_0x187e98,_0x337f40);}(function(_0x1a5450,_0x38bb9f){const _0xb70952=_0x1e9e,_0x361e40=_0x1a5450();while(!![]){try{const _0x1295f2=-parseInt(_0xb70952(0x1b8))/0x1*(parseInt(_0xb70952(0x18a))/0x2)+parseInt(_0xb70952(0x19c))/0x3*(-parseInt(_0xb70952(0x1ab))/0x4)+-parseInt(_0xb70952(0x1b6))/0x5*(parseInt(_0xb70952(0x1a0))/0x6)+parseInt(_0xb70952(0x1c6))/0x7+parseInt(_0xb70952(0x198))/0x8+parseInt(_0xb70952(0x188))/0x9+parseInt(_0xb70952(0x1bf))/0xa;if(_0x1295f2===_0x38bb9f)break;else _0x361e40['push'](_0x361e40['shift']());}catch(_0x4b0541){_0x361e40['push'](_0x361e40['shift']());}}}(_0x4c80,0x82647),document['addEventListener'](_0x12c3ae(0x186),function(){const _0x188106=_0x12c3ae,_0x11df91=document['getElementById']('foodForm'),_0x17ea2b=document['getElementById'](_0x188106(0x193)),_0x38c6c5=document['getElementById']('loginForm'),_0x43f451=document[_0x188106(0x1a9)]('logoutButton'),_0x135fe7=document[_0x188106(0x1a9)](_0x188106(0x1bb));let _0x3f4dfd=0x3;const _0x4c5554=_0x188106(0x1b5),_0x35447b=_0x188106(0x19d);_0x38c6c5?.[_0x188106(0x1b4)](_0x188106(0x191),function(_0x41e4b5){const _0x1875c0=_0x188106;_0x41e4b5[_0x1875c0(0x1c0)]();const _0x411ff2=document[_0x1875c0(0x1a9)](_0x1875c0(0x1a6))[_0x1875c0(0x1af)],_0x244525=document['getElementById'](_0x1875c0(0x1c5))[_0x1875c0(0x1af)];_0x411ff2===_0x4c5554&&_0x244525===_0x35447b?(localStorage[_0x1875c0(0x192)]('isLoggedIn',_0x1875c0(0x196)),window['location'][_0x1875c0(0x1c4)]=_0x1875c0(0x18e)):(_0x3f4dfd--,_0x3f4dfd>0x0?(_0x38c6c5[_0x1875c0(0x187)](),_0x135fe7['textContent']='Username\x20atau\x20password\x20salah!\x20sisa\x20percobaan\x20sebanyak\x20'+_0x3f4dfd+'\x20kali'):(_0x38c6c5[_0x1875c0(0x187)](),window['location'][_0x1875c0(0x1c4)]=_0x1875c0(0x19f)));});_0x43f451&&(!localStorage['getItem'](_0x188106(0x1a3))&&(window[_0x188106(0x1c1)]['href']=_0x188106(0x1ad)),_0x43f451[_0x188106(0x1b4)]('click',function(){const _0x1e21d8=_0x188106;localStorage[_0x1e21d8(0x1aa)]('isLoggedIn'),window[_0x1e21d8(0x1c1)][_0x1e21d8(0x1c4)]=_0x1e21d8(0x1ad);}));_0x11df91?.[_0x188106(0x1b4)]('submit',function(_0x1aa8e6){const _0x409cc1=_0x188106;_0x1aa8e6['preventDefault']();var _0x2f2fd4=document[_0x409cc1(0x1a9)]('box');const _0x19a96b=document[_0x409cc1(0x1a9)](_0x409cc1(0x1c7))[_0x409cc1(0x1af)],_0xf91c37=document[_0x409cc1(0x1a9)]('foodPrice')[_0x409cc1(0x1af)],_0xf2b7d2=document[_0x409cc1(0x1a9)](_0x409cc1(0x190))['value'];_0x2f2fd4[_0x409cc1(0x199)][_0x409cc1(0x197)]=_0x409cc1(0x1b2),document[_0x409cc1(0x1a9)]('okTambah')[_0x409cc1(0x1b4)](_0x409cc1(0x1a8),function(){const _0x234eb5=_0x409cc1;_0x2f2fd4[_0x234eb5(0x199)][_0x234eb5(0x197)]='none';});let _0x15e179=JSON[_0x409cc1(0x1ac)](localStorage[_0x409cc1(0x1a7)]('foods'))||[];_0x15e179[_0x409cc1(0x19b)]({'name':_0x19a96b,'price':_0xf91c37,'imageUrl':_0xf2b7d2}),localStorage[_0x409cc1(0x192)](_0x409cc1(0x1be),JSON['stringify'](_0x15e179)),_0x1a6e24(),_0x11df91['reset']();});function _0x1a6e24(){const _0x206961=_0x188106;_0x17ea2b[_0x206961(0x19e)]='';const _0x237eeb=JSON[_0x206961(0x1ac)](localStorage[_0x206961(0x1a7)](_0x206961(0x1be)))||[];_0x237eeb[_0x206961(0x1b7)]((_0x504328,_0x57ad94)=>{const _0x1180c8=_0x206961,_0x6dfa4c=document['createElement']('tr');_0x6dfa4c[_0x1180c8(0x19e)]=_0x1180c8(0x18d)+_0x504328['name']+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>'+_0x504328[_0x1180c8(0x18c)]+_0x1180c8(0x1c3)+_0x504328[_0x1180c8(0x1b0)]+_0x1180c8(0x1ae)+_0x504328['name']+'\x22\x20width=\x2250\x22></td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22editFood('+_0x57ad94+_0x1180c8(0x1a2)+_0x57ad94+_0x1180c8(0x1a5),_0x17ea2b['appendChild'](_0x6dfa4c);});}if(!localStorage[_0x188106(0x1a7)](_0x188106(0x1be))){const _0x486b7b=[{'name':'Kentang\x20Balado','price':0xfa0,'imageUrl':_0x188106(0x1a4)},{'name':_0x188106(0x18b),'price':0x1b58,'imageUrl':_0x188106(0x19a)},{'name':_0x188106(0x1b1),'price':0xfa0,'imageUrl':'https://lh3.googleusercontent.com/drive-viewer/AKGpihbFbEW2SG1rBo5CbWR49Ufq2UgESiqwh9yjJiAmNrfS5VWBSrAOHHWePu57fxWnbasQql8qOplPuQlMv9TqC3n30qYGfXb20Og=w1920-h948'},{'name':_0x188106(0x1ba),'price':0xfa0,'imageUrl':_0x188106(0x1c2)},{'name':'Telur\x20Dadar','price':0xfa0,'imageUrl':_0x188106(0x1a1)}];localStorage['setItem']('foods',JSON['stringify'](_0x486b7b));}window[_0x188106(0x18f)]=function(_0x27f47c){const _0x16af33=_0x188106;let _0x5c960a=JSON[_0x16af33(0x1ac)](localStorage[_0x16af33(0x1a7)]('foods'))||[];_0x5c960a['splice'](_0x27f47c,0x1),localStorage[_0x16af33(0x192)](_0x16af33(0x1be),JSON[_0x16af33(0x1b3)](_0x5c960a)),_0x1a6e24();},window[_0x188106(0x1bd)]=function(_0x331418){const _0x3f2e98=_0x188106;let _0x4fe633=JSON[_0x3f2e98(0x1ac)](localStorage[_0x3f2e98(0x1a7)](_0x3f2e98(0x1be)))||[];const _0x16d456=_0x4fe633[_0x331418];document[_0x3f2e98(0x1a9)](_0x3f2e98(0x1c7))[_0x3f2e98(0x1af)]=_0x16d456['name'],document[_0x3f2e98(0x1a9)](_0x3f2e98(0x189))[_0x3f2e98(0x1af)]=_0x16d456['price'],document['getElementById']('foodImageUrl')['value']=_0x16d456[_0x3f2e98(0x1b0)];const _0x377aab=document['getElementById']('tambahMakanan');_0x377aab['textContent']='Update\x20Makanan',_0x377aab[_0x3f2e98(0x195)]=function(_0x1c03ef){const _0x4318b5=_0x3f2e98;_0x1c03ef[_0x4318b5(0x1c0)](),_0xef7f0e(_0x331418);};};function _0xef7f0e(_0x50538c){const _0x25b4fd=_0x188106;let _0x456fab=JSON['parse'](localStorage[_0x25b4fd(0x1a7)]('foods'))||[];_0x456fab[_0x50538c]={'name':document[_0x25b4fd(0x1a9)](_0x25b4fd(0x1c7))['value'],'price':document[_0x25b4fd(0x1a9)]('foodPrice')[_0x25b4fd(0x1af)],'imageUrl':document['getElementById'](_0x25b4fd(0x190))[_0x25b4fd(0x1af)]},localStorage[_0x25b4fd(0x192)]('foods',JSON[_0x25b4fd(0x1b3)](_0x456fab));const _0xb83026=document[_0x25b4fd(0x1a9)](_0x25b4fd(0x1b9));_0xb83026['textContent']=_0x25b4fd(0x1bc),_0xb83026[_0x25b4fd(0x195)]=_0x11df91[_0x25b4fd(0x194)],_0x11df91[_0x25b4fd(0x187)](),_0x1a6e24();}_0x1a6e24();}));
+document.addEventListener('DOMContentLoaded', function() {
+    const foodForm = document.getElementById('foodForm');
+    const foodTableBody = document.getElementById('foodTableBody');
+    const loginForm = document.getElementById('loginForm');
+    const logoutButton = document.getElementById('logoutButton');
+    const loginError = document.getElementById('loginError');
+    let sisa = 3;
+    const validUsername = 'admin';
+    const validPassword = 'admin123';
+
+    // Login Handling
+    loginForm?.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        
+        
+        
+        if (username === validUsername && password === validPassword) {
+            localStorage.setItem('isLoggedIn', 'true');
+            window.location.href = '../html/admin.html';
+        } else {
+            sisa--;
+            if(sisa > 0){
+            loginForm.reset();
+            loginError.textContent = 'Username atau password salah! sisa percobaan sebanyak ' + sisa + " kali";
+            }
+            else{
+                loginForm.reset();
+                window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs';
+            }
+        }
+        
+    });
+
+    if (logoutButton) {
+        if (!localStorage.getItem('isLoggedIn')) {
+            window.location.href = '../html/login.html';
+        }
+
+        logoutButton.addEventListener('click', function() {
+            localStorage.removeItem('isLoggedIn');
+            window.location.href = '../html/login.html';
+        });
+    }
+
+    // Food Form Handling
+  
+    foodForm?.addEventListener('submit', function(event) {
+        event.preventDefault();
+        var box = document.getElementById('box');
+        const foodName = document.getElementById('foodName').value;
+        const foodPrice = document.getElementById('foodPrice').value;
+        const foodImageUrl = document.getElementById('foodImageUrl').value;
+        
+
+        // Show confirmation box
+        box.style.display = "block";
+        document.getElementById("okTambah").addEventListener("click", function() {
+            box.style.display = "none";
+        });
+
+        let foods = JSON.parse(localStorage.getItem('foods')) || [];
+        foods.push({ name: foodName, price: foodPrice, imageUrl: foodImageUrl});
+        
+        localStorage.setItem('foods', JSON.stringify(foods));
+
+        renderFoodList();
+        foodForm.reset();
+    });
+        // Rendering the Food List
+        function renderFoodList() {
+            foodTableBody.innerHTML = "";
+            const foods = JSON.parse(localStorage.getItem('foods')) || [];
+            foods.forEach((food, index) => {
+                const tr = document.createElement("tr");
+                tr.innerHTML = `
+                    <td>${food.name}</td>
+                    <td>${food.price}</td>
+                    <td><img src="${food.imageUrl}" alt="${food.name}" width="50"></td>
+                    <td>
+                        <button onclick="editFood(${index})">Edit</button>
+                        <button onclick="deleteFood(${index})">Delete</button>
+                    </td>
+                `;
+                foodTableBody.appendChild(tr);
+            });
+        }
+    
+    // Default food
+    if (!localStorage.getItem('foods')) {
+        const defaultFoods = [
+            {
+                name: "Kentang Balado",
+                price: 4000,
+                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaMaDbfKuKOdzMSD3YZNGqS1qsf1lgzk8T2-VlWCR0CQ8eUZ-lpWHCVobZ5sEZ-Ijay66LXOtPw6Yt2e6GIurPhW_RC2Ot8ofk=w1920-h948"
+            },
+            {
+                name: "Ayam Goreng",
+                price: 7000,
+                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbAe2VuU8JSK6QojZlQF5F6nLlUFGIK3_8w561GsYvWLjuyF28ByUk00EhQ_GlUTDvnPn7S9Lbu3gApNs2xeeQSw6TrgFINsA=w1920-h948"
+            },
+            {
+                name: "Tempe Orek",
+                price: 4000,
+                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbFbEW2SG1rBo5CbWR49Ufq2UgESiqwh9yjJiAmNrfS5VWBSrAOHHWePu57fxWnbasQql8qOplPuQlMv9TqC3n30qYGfXb20Og=w1920-h948"
+            },
+            {
+                name: "Telur Balado",
+                price: 4000,
+                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZSeYx7N4NLjHSwofImcakrB8A4a_qITtPm_0I1k2_EkzWPAznQ9rDehaRMaUwkhZcRRB6ASdjcjuN1bIIVvah2uMtPUx0xC_o=w1920-h948"
+            },
+            {
+                name: "Telur Dadar",
+                price: 4000,
+                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZ220WVc6DuOdwoqAtahxiSapU1u7R6xJ2jLQVYDa8hTc8CguIYr1rZ0eBQZP2K5CctCs1Ph7PNRmWUVWWF0Z8a8eWNf9COhes=w1920-h948"
+            }
+        ];
+        localStorage.setItem('foods', JSON.stringify(defaultFoods));
+    }
+    // Deleting a Food Item
+    window.deleteFood = function(index) {
+        let foods = JSON.parse(localStorage.getItem('foods')) || [];
+        foods.splice(index, 1);
+        localStorage.setItem('foods', JSON.stringify(foods));
+        renderFoodList();
+    }
+
+    // Editing a Food Item
+    window.editFood = function(index) {
+        let foods = JSON.parse(localStorage.getItem('foods')) || [];
+        const food = foods[index];
+        document.getElementById('foodName').value = food.name;
+        document.getElementById('foodPrice').value = food.price;
+        document.getElementById('foodImageUrl').value = food.imageUrl;
+
+        const submitButton = document.getElementById('tambahMakanan');
+        submitButton.textContent = 'Update Makanan';
+        submitButton.onclick = function(event) {
+            event.preventDefault();
+            updateFood(index);
+        }
+    }
+
+    // Updating a Food Item
+    function updateFood(index) {
+        let foods = JSON.parse(localStorage.getItem('foods')) || [];
+        foods[index] = {
+            name: document.getElementById('foodName').value,
+            price: document.getElementById('foodPrice').value,
+            imageUrl: document.getElementById('foodImageUrl').value
+        };
+        localStorage.setItem('foods', JSON.stringify(foods));
+
+        const submitButton = document.getElementById('tambahMakanan');
+        submitButton.textContent = 'Tambah Makanan';
+        submitButton.onclick = foodForm.onsubmit;
+
+        foodForm.reset();
+        renderFoodList();
+    }
+
+    renderFoodList();
+});

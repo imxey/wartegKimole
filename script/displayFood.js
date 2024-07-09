@@ -1,1 +1,211 @@
-function _0x54e9(){const _0x3cbb9a=['imageUrl','removeItem','\x22\x20style=\x22width:\x2050px;\x20height:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','appendChild','stringify','name','Mohon\x20untuk\x20konfirmasi\x20pembelian\x20pada\x20nomor\x20yang\x20tertera!','\x20x\x20','getItem','Jumlah\x20tidak\x20valid.\x20Silakan\x20masukkan\x20angka\x20positif.','push','setItem','splice','769802iDnkHi','purchasedList','Beli','namaBuyer','innerHTML','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','alamatBuyer','&text=','5271fsephx','GET','reduce','none','12gvTTfR','DOMContentLoaded','beliMakanForm','\x20-\x20Rp\x20','2904fHQcaV','createElement','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20%0A%0ARincian\x20Pembelian\x20:%0A','2504178fQWpIo','forEach','open','parse','quantity','.formIlang','https://api.telegram.org/bot','click','display','\x22\x20style=\x22width:\x20100px;\x20height:\x20auto;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Nama:\x20','Beli\x20-\x20Total\x20Harga:\x20Rp\x20','\x22\x20alt=\x22','15HWtaau','style','block','foods','noBuyer','querySelector','preventDefault','send','20XsuMkw','purchasedItems','addEventListener','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22removeItem(','%0A','2ebDcWe',')\x22>Hapus</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Alamat:\x20','385669DFNqbe','%0ANo.\x20HP:\x20','696tcitVN','publicFoodList','2039999IelEzh','Total\x20Harga:\x20Rp\x20','\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','getElementById','foodList','price','349984qRbjVW','1385ZbgCwd','reset','\x20=\x20Rp\x20','totalPrice','value','checkout'];_0x54e9=function(){return _0x3cbb9a;};return _0x54e9();}function _0x4c85(_0x447773,_0x53add8){const _0x54e94=_0x54e9();return _0x4c85=function(_0x4c8528,_0x2bf825){_0x4c8528=_0x4c8528-0x11b;let _0x37f89d=_0x54e94[_0x4c8528];return _0x37f89d;},_0x4c85(_0x447773,_0x53add8);}const _0x485903=_0x4c85;(function(_0x1f533d,_0x4ec1e0){const _0xe74f5d=_0x4c85,_0x2c15a4=_0x1f533d();while(!![]){try{const _0x312968=-parseInt(_0xe74f5d(0x142))/0x1*(parseInt(_0xe74f5d(0x13f))/0x2)+-parseInt(_0xe74f5d(0x132))/0x3*(-parseInt(_0xe74f5d(0x14c))/0x4)+-parseInt(_0xe74f5d(0x14d))/0x5*(parseInt(_0xe74f5d(0x144))/0x6)+parseInt(_0xe74f5d(0x168))/0x7*(parseInt(_0xe74f5d(0x122))/0x8)+-parseInt(_0xe74f5d(0x125))/0x9*(-parseInt(_0xe74f5d(0x13a))/0xa)+-parseInt(_0xe74f5d(0x160))/0xb*(parseInt(_0xe74f5d(0x11e))/0xc)+-parseInt(_0xe74f5d(0x146))/0xd;if(_0x312968===_0x4ec1e0)break;else _0x2c15a4['push'](_0x2c15a4['shift']());}catch(_0x1e5f8c){_0x2c15a4['push'](_0x2c15a4['shift']());}}}(_0x54e9,0x98005),document[_0x485903(0x13c)](_0x485903(0x11f),function(){const _0x45a66d=_0x485903,_0x4d1da9=document[_0x45a66d(0x149)](_0x45a66d(0x14a)),_0xb011ac=document[_0x45a66d(0x149)](_0x45a66d(0x145)),_0x2e8f3d=document[_0x45a66d(0x149)]('beli'),_0x50e86e=-0xe957a63536,_0xa08406='7243735582:AAFK1CMy8I4x302RNdDBI68eL1mSLz2oNZM',_0x4e08c4=document[_0x45a66d(0x149)]('beliMakanForm'),_0x24f5c4=document[_0x45a66d(0x137)](_0x45a66d(0x12a)),_0x343589=document[_0x45a66d(0x149)](_0x45a66d(0x152));let _0x3a4fd6=JSON[_0x45a66d(0x128)](localStorage[_0x45a66d(0x15b)]('purchasedItems'))||[];function _0x382b4a(){const _0x4d5a42=_0x45a66d;_0x4d1da9[_0x4d5a42(0x164)]='';const _0x25b42d=JSON[_0x4d5a42(0x128)](localStorage[_0x4d5a42(0x15b)](_0x4d5a42(0x135)))||[];_0x25b42d[_0x4d5a42(0x126)](_0x3676ff=>{const _0x495d14=_0x4d5a42,_0x5479f8=document[_0x495d14(0x123)]('li');_0x5479f8[_0x495d14(0x164)]=_0x495d14(0x165)+_0x3676ff['imageUrl']+_0x495d14(0x131)+_0x3676ff[_0x495d14(0x158)]+_0x495d14(0x12e)+_0x3676ff[_0x495d14(0x158)]+_0x495d14(0x121)+_0x3676ff[_0x495d14(0x14b)]+_0x495d14(0x148),_0x4d1da9[_0x495d14(0x156)](_0x5479f8);});}if(_0x4d1da9)_0x382b4a();if(_0xb011ac){_0xb011ac[_0x45a66d(0x164)]='';const _0xbf396c=JSON[_0x45a66d(0x128)](localStorage['getItem']('foods'))||[];_0xbf396c[_0x45a66d(0x126)]((_0x1a48a4,_0x41017f)=>{const _0x3af717=_0x45a66d,_0x386aeb=document[_0x3af717(0x123)]('li');_0x386aeb[_0x3af717(0x164)]=_0x3af717(0x165)+_0x1a48a4['imageUrl']+'\x22\x20alt=\x22'+_0x1a48a4['name']+'\x22\x20onclick=\x22buyFood('+_0x41017f+')\x22\x20id=\x22gambarMakanan\x22\x20style=\x22width:\x20100px;\x20height:\x20100px;\x22><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x1a48a4['name']+_0x3af717(0x121)+_0x1a48a4[_0x3af717(0x14b)]+_0x3af717(0x148),_0xb011ac[_0x3af717(0x156)](_0x386aeb);});}window['buyFood']=function(_0x445f2a){const _0x4de46d=_0x45a66d,_0x4427f7=prompt('Masukkan\x20jumlah\x20item\x20yang\x20ingin\x20dibeli:');if(_0x4427f7===null||isNaN(_0x4427f7)||_0x4427f7<=0x0){alert(_0x4de46d(0x15c));return;}const _0x41b304=JSON[_0x4de46d(0x128)](localStorage[_0x4de46d(0x15b)]('foods'))||[],_0x50f7b2=_0x41b304[_0x445f2a],_0x2c581a=_0x50f7b2['price']*_0x4427f7,_0x301d3a={'name':_0x50f7b2['name'],'price':_0x50f7b2['price'],'quantity':_0x4427f7,'totalPrice':_0x2c581a,'imageUrl':_0x50f7b2[_0x4de46d(0x153)]};_0x3a4fd6[_0x4de46d(0x15d)](_0x301d3a),localStorage[_0x4de46d(0x15e)]('purchasedItems',JSON[_0x4de46d(0x157)](_0x3a4fd6));let _0x3f3b84=_0x3a4fd6['reduce']((_0x2d83bc,_0xc9d69e)=>_0x2d83bc+_0xc9d69e[_0x4de46d(0x150)],0x0);_0x2e8f3d[_0x4de46d(0x164)]=_0x4de46d(0x130)+_0x3f3b84,_0x513287();};function _0x513287(){const _0x12b2b1=_0x45a66d,_0x311589=document[_0x12b2b1(0x149)](_0x12b2b1(0x161));if(!_0x311589)return;_0x311589[_0x12b2b1(0x164)]='',_0x3a4fd6[_0x12b2b1(0x126)]((_0x693fd7,_0x279a2f)=>{const _0x311115=_0x12b2b1,_0x472228=document[_0x311115(0x123)]('li');_0x472228[_0x311115(0x164)]=_0x311115(0x165)+_0x693fd7['imageUrl']+_0x311115(0x131)+_0x693fd7[_0x311115(0x158)]+_0x311115(0x155)+_0x693fd7['name']+'\x20-\x20Rp\x20'+_0x693fd7['price']+_0x311115(0x15a)+_0x693fd7['quantity']+'\x20=\x20Rp\x20'+_0x693fd7[_0x311115(0x150)]+_0x311115(0x13d)+_0x279a2f+_0x311115(0x140),_0x311589[_0x311115(0x156)](_0x472228);});}window[_0x45a66d(0x154)]=function(_0x9de56d){const _0x26460c=_0x45a66d;_0x3a4fd6[_0x26460c(0x15f)](_0x9de56d,0x1),localStorage[_0x26460c(0x15e)](_0x26460c(0x13b),JSON[_0x26460c(0x157)](_0x3a4fd6)),_0x513287();let _0x3e767b=_0x3a4fd6['reduce']((_0x1dd761,_0x2fdfb9)=>_0x1dd761+_0x2fdfb9[_0x26460c(0x150)],0x0);_0x2e8f3d[_0x26460c(0x164)]=_0x26460c(0x147)+_0x3e767b;},_0x2e8f3d[_0x45a66d(0x13c)](_0x45a66d(0x12c),function(){const _0x21202c=_0x45a66d;_0x24f5c4[_0x21202c(0x133)][_0x21202c(0x12d)]=_0x21202c(0x134),_0x343589[_0x21202c(0x13c)](_0x21202c(0x12c),function(_0x3fe97f){const _0x460bf0=_0x21202c;_0x3fe97f[_0x460bf0(0x138)]();const _0x4a368e=document[_0x460bf0(0x149)](_0x460bf0(0x163))['value'],_0x11aa55=document['getElementById'](_0x460bf0(0x136))[_0x460bf0(0x151)],_0x1a6a99=document['getElementById'](_0x460bf0(0x166))[_0x460bf0(0x151)];let _0x10eb0e=_0x3a4fd6[_0x460bf0(0x11c)]((_0x575de1,_0x35ef96)=>_0x575de1+_0x35ef96[_0x460bf0(0x150)],0x0),_0x599ea3=_0x460bf0(0x12f)+_0x4a368e+'\x0a';_0x599ea3+='No.\x20HP:\x20'+_0x11aa55+'\x0a',_0x599ea3+=_0x460bf0(0x141)+_0x1a6a99+'\x0a',_0x3a4fd6[_0x460bf0(0x126)](_0x552317=>{const _0xb081c0=_0x460bf0;_0x599ea3+='-\x20'+_0x552317[_0xb081c0(0x158)]+'\x20x\x20'+_0x552317['quantity']+_0xb081c0(0x14f)+_0x552317[_0xb081c0(0x150)]+'\x0a';}),_0x599ea3+=_0x460bf0(0x147)+_0x10eb0e+'\x0a',_0x599ea3+='Mohon\x20tunggu\x20konfirmasi\x20dari\x20admin\x20kami\x20melalui\x20telegram',alert(_0x599ea3),_0x24f5c4['style'][_0x460bf0(0x12d)]=_0x460bf0(0x11d),document[_0x460bf0(0x149)](_0x460bf0(0x120))[_0x460bf0(0x14e)]();let _0x5ce66e='NOTIFIKASI\x20PEMBELIAN\x20BARU\x20%0A%0APembelian\x20atas\x20nama\x20:\x20%0ANama:\x20'+_0x4a368e+_0x460bf0(0x143)+_0x11aa55+'%0AAlamat:\x20'+_0x1a6a99+_0x460bf0(0x124);_0x3a4fd6['forEach'](_0x5b92f0=>{const _0x15a437=_0x460bf0;_0x5ce66e+='-\x20'+_0x5b92f0[_0x15a437(0x158)]+'\x20x\x20'+_0x5b92f0[_0x15a437(0x129)]+'\x20=\x20Rp\x20'+_0x5b92f0[_0x15a437(0x150)]+_0x15a437(0x13e);}),_0x5ce66e+='Total\x20Harga:\x20Rp\x20'+_0x10eb0e+'%0A%0A',_0x5ce66e+=_0x460bf0(0x159),_0x3a4fd6=[],localStorage[_0x460bf0(0x154)](_0x460bf0(0x13b)),_0x513287(),_0x2e8f3d[_0x460bf0(0x164)]=_0x460bf0(0x162);const _0x270f54=_0x460bf0(0x12b)+_0xa08406+'/sendMessage?chat_id='+_0x50e86e+_0x460bf0(0x167)+_0x5ce66e;let _0x4e0a20=new XMLHttpRequest();_0x4e0a20[_0x460bf0(0x127)](_0x460bf0(0x11b),_0x270f54,!![]),_0x4e0a20[_0x460bf0(0x139)]();});}),_0x513287();}));
+document.addEventListener('DOMContentLoaded', function() {
+    const foodList = document.getElementById('foodList');
+    const publicFoodList = document.getElementById('publicFoodList');
+    const beli = document.getElementById('beli');
+    const chatId = -1002197890358;
+    const token = '7243735582:AAFK1CMy8I4x302RNdDBI68eL1mSLz2oNZM';
+    const beliMakanForm = document.getElementById('beliMakanForm');
+    const formIlang = document.querySelector('.formIlang');
+    const checkout = document.getElementById('checkout');
+    let purchasedItems = JSON.parse(localStorage.getItem('purchasedItems')) || [];
+
+    // Fungsi untuk merender daftar makanan
+    function renderFoodList() {
+        foodList.innerHTML = '';
+        const foods = JSON.parse(localStorage.getItem('foods')) || [];
+        foods.forEach((food) => {
+            const li = document.createElement('li');
+            li.innerHTML = `
+                <img src="${food.imageUrl}" alt="${food.name}" style="width: 100px; height: auto;">
+                ${food.name} - Rp ${food.price} 
+            `;
+            foodList.appendChild(li);
+        });
+    }
+
+    if (foodList) renderFoodList();
+
+    // Render untuk publicFoodList
+    if (publicFoodList) {
+        publicFoodList.innerHTML = '';
+        const foods = JSON.parse(localStorage.getItem('foods')) || [];
+        foods.forEach((food, index) => {
+            const li = document.createElement('li');
+            li.innerHTML = `
+                <img src="${food.imageUrl}" alt="${food.name}" onclick="buyFood(${index})" id="gambarMakanan" style="width: 100px; height: 100px;"><br>
+                ${food.name} - Rp ${food.price} 
+            `;
+            publicFoodList.appendChild(li);
+        });
+    }
+
+    // Fungsi untuk membeli makanan
+    window.buyFood = function(index) {
+        const quantity = prompt("Masukkan jumlah item yang ingin dibeli:");
+        if (quantity === null || isNaN(quantity) || quantity <= 0) {
+            alert("Jumlah tidak valid. Silakan masukkan angka positif.");
+            return;
+        }
+
+        const foods = JSON.parse(localStorage.getItem('foods')) || [];
+        const selectedFood = foods[index];
+        const totalPrice = selectedFood.price * quantity;
+
+        // Buat objek untuk item yang dibeli
+        const purchasedItem = {
+            name: selectedFood.name,
+            price: selectedFood.price,
+            quantity: quantity,
+            totalPrice: totalPrice,
+            imageUrl: selectedFood.imageUrl
+        };
+
+        // Tambahkan item yang dibeli ke array purchasedItems
+        purchasedItems.push(purchasedItem);
+
+        // Simpan array ke localStorage
+        localStorage.setItem('purchasedItems', JSON.stringify(purchasedItems));
+
+        // Hitung total harga semua item yang dibeli
+        let finalPrice = purchasedItems.reduce((acc, item) => acc + item.totalPrice, 0);
+
+        
+        // Tampilkan total harga ke elemen beli
+        beli.innerHTML = `Beli - Total Harga: Rp ${finalPrice}`;
+
+        // Tampilkan daftar pembelian
+        renderPurchasedItems();
+    };
+
+    // Fungsi untuk merender daftar item yang dibeli
+    function renderPurchasedItems() {
+        const purchasedList = document.getElementById('purchasedList');
+        if (!purchasedList) return;
+
+        purchasedList.innerHTML = '';
+        purchasedItems.forEach((item, index) => {
+            const li = document.createElement('li');
+            li.innerHTML = `
+                <img src="${item.imageUrl}" alt="${item.name}" style="width: 50px; height: auto;">
+                ${item.name} - Rp ${item.price} x ${item.quantity} = Rp ${item.totalPrice}
+                <button onclick="removeItem(${index})">Hapus</button>
+            `;
+            purchasedList.appendChild(li);
+        });
+    }
+
+    // Fungsi untuk menghapus item tertentu
+    window.removeItem = function(index) {
+        purchasedItems.splice(index, 1); // Hapus item dari array
+        localStorage.setItem('purchasedItems', JSON.stringify(purchasedItems)); // Perbarui localStorage
+        renderPurchasedItems(); // Perbarui tampilan
+
+        // Hitung ulang total harga semua item yang dibeli
+        let finalPrice = purchasedItems.reduce((acc, item) => acc + item.totalPrice, 0);
+        beli.innerHTML = `Total Harga: Rp ${finalPrice}`;
+    };
+
+    // Event listener untuk tombol beli
+    beli.addEventListener('click', function() {
+        // Munculkan form pembelian
+        formIlang.style.display = 'block';
+
+        // Event listener untuk tombol checkout di dalam form pembelian
+        checkout.addEventListener('click', async function(event) {
+            event.preventDefault();
+
+            // Ambil nilai terbaru dari input pembeli
+            const namaBuyerValue = document.getElementById('namaBuyer').value;
+            const noBuyerValue = document.getElementById('noBuyer').value;
+            const alamatBuyerValue = document.getElementById('alamatBuyer').value;
+            const emailBuyerValue = document.getElementById('emailBuyer').value;
+            if (namaBuyerValue === '' || noBuyerValue === '' || alamatBuyerValue === '') {
+                alert('Semua field harus diisi!');
+                return;
+            }
+            // Hitung ulang total harga semua item yang dibeli
+            const finalPrice = purchasedItems.reduce((acc, item) => acc + item.totalPrice, 0);
+            
+              if (namaBuyerValue != '' || noBuyerValue != '' || alamatBuyerValue != '' || emailBuyerValue != '') {
+                const data = {
+                    namaBuyerValue: namaBuyerValue,
+                    noBuyerValue: noBuyerValue,
+                    alamatBuyerValue: alamatBuyerValue,
+                    emailBuyerValue: emailBuyerValue,
+                    finalPrice: finalPrice
+                  };
+                  try {
+                    const response = await fetch('../script/app.php', {
+                      method: 'POST',
+                      headers: {
+                        'Content-Type': 'application/json'
+                      },
+                      body: JSON.stringify(data)
+                    });
+                    const token = await response.text();
+                    
+                    window.snap.embed(token, {
+                        embedId: 'snap-container',
+                        onSuccess: function (result) {
+                          /* You may add your own implementation here */
+                          kirimTele()
+                          alert(strukk()); console.log(result);
+                          
+                        },
+                        onPending: function (result) {
+                          /* You may add your own implementation here */
+                          alert("wating your payment!"); console.log(result);
+                        },
+                        onError: function (result) {
+                          /* You may add your own implementation here */
+                          alert("payment failed!"); console.log(result);
+                        },
+                        onClose: function () {
+                          /* You may add your own implementation here */
+                          alert('you closed the popup without finishing the payment');
+                        }
+                      });
+                  } catch (err) {
+                    console.error(err);
+                  }
+            }
+            
+            function strukk(){
+                let textStruck = `Pembayaran berhasil\nNama: ${namaBuyerValue}\n`;
+            textStruck += `No. HP: ${noBuyerValue}\n`;
+            textStruck += `Alamat: ${alamatBuyerValue}\n`;
+            purchasedItems.forEach((item) => {
+                textStruck += `- ${item.name} x ${item.quantity} = Rp ${item.totalPrice}\n`;
+            });
+            textStruck += `Total Harga: Rp ${finalPrice}\n`;
+            textStruck += `Mohon tunggu konfirmasi dari admin kami melalui telegram`
+            return textStruck;
+            }
+            
+            formIlang.style.display = 'none';
+            document.getElementById('beliMakanForm').reset();
+            
+            function kirimTele(){
+            let text = `NOTIFIKASI PEMBELIAN BARU %0A%0APembelian atas nama : %0ANama: ${namaBuyerValue}%0ANo. HP: ${noBuyerValue}%0AAlamat: ${alamatBuyerValue}
+            %0A%0ARincian Pembelian :%0A`
+            purchasedItems.forEach((item) => {
+                text += `- ${item.name} x ${item.quantity} = Rp ${item.totalPrice}%0A`;
+            });
+            text += `Total Harga: Rp ${finalPrice}%0A%0A`;
+            text += "Mohon untuk konfirmasi pembelian pada nomor yang tertera!";
+            // Hapus dari localStorage      
+            renderPurchasedItems(); // Perbarui tampilan
+            beli.innerHTML = 'Beli'; // Atur kembali teks tombol beli
+            // Kirim pesan ke Telegram jika diperlukan
+            const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${text}`;
+            let api = new XMLHttpRequest();
+            api.open('GET', url, true);
+            api.send();
+        }purchasedItems = []; // Kosongkan array
+        localStorage.removeItem('purchasedItems'); 
+        });
+    });
+
+    // Render daftar item yang dibeli saat halaman dimuat
+    renderPurchasedItems();
+});
