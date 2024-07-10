@@ -8,7 +8,39 @@ document.addEventListener('DOMContentLoaded', function() {
     const formIlang = document.querySelector('.formIlang');
     const checkout = document.getElementById('checkout');
     let purchasedItems = JSON.parse(localStorage.getItem('purchasedItems')) || [];
+    if (!localStorage.getItem('foods')) {
+        window.location.reload();
 
+        const defaultFoods = [
+            {
+                name: "Kentang Balado",
+                price: 4000,
+                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaMaDbfKuKOdzMSD3YZNGqS1qsf1lgzk8T2-VlWCR0CQ8eUZ-lpWHCVobZ5sEZ-Ijay66LXOtPw6Yt2e6GIurPhW_RC2Ot8ofk=w1920-h948"
+            },
+            {
+                name: "Ayam Goreng",
+                price: 7000,
+                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbAe2VuU8JSK6QojZlQF5F6nLlUFGIK3_8w561GsYvWLjuyF28ByUk00EhQ_GlUTDvnPn7S9Lbu3gApNs2xeeQSw6TrgFINsA=w1920-h948"
+            },
+            {
+                name: "Tempe Orek",
+                price: 4000,
+                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbFbEW2SG1rBo5CbWR49Ufq2UgESiqwh9yjJiAmNrfS5VWBSrAOHHWePu57fxWnbasQql8qOplPuQlMv9TqC3n30qYGfXb20Og=w1920-h948"
+            },
+            {
+                name: "Telur Balado",
+                price: 4000,
+                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZSeYx7N4NLjHSwofImcakrB8A4a_qITtPm_0I1k2_EkzWPAznQ9rDehaRMaUwkhZcRRB6ASdjcjuN1bIIVvah2uMtPUx0xC_o=w1920-h948"
+            },
+            {
+                name: "Telur Dadar",
+                price: 4000,
+                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZ220WVc6DuOdwoqAtahxiSapU1u7R6xJ2jLQVYDa8hTc8CguIYr1rZ0eBQZP2K5CctCs1Ph7PNRmWUVWWF0Z8a8eWNf9COhes=w1920-h948"
+            }
+        ];
+        localStorage.setItem('foods', JSON.stringify(defaultFoods));
+        renderFoodList();
+    }
     // Fungsi untuk merender daftar makanan
     function renderFoodList() {
         foodList.innerHTML = '';

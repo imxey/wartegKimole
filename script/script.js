@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let sisa = 3;
     const validUsername = 'admin';
     const validPassword = 'admin123';
-
+    
     // Login Handling
     loginForm?.addEventListener('submit', function(event) {
         event.preventDefault();
