@@ -161,7 +161,7 @@ button {
     flex-direction: row;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     .kelebihan1 img, .kelebihan2 img, .kelebihan3 img {
         width: 150px;
         height: auto;
