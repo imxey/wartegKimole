@@ -7,6 +7,7 @@ body{
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
 .container {
   display: flex;
   justify-content: center;
@@ -26,16 +27,7 @@ header{
   z-index: 1000;
   font-size: larger;
 }
-nav{
-  position: relative;
-  padding: 2%;
-  
-}
-nav a{
-  margin: 0 10px;
-  color: white;
-  text-decoration: none;
-}
+
 
 #publicFoodList {
   display: flex;
@@ -371,7 +363,7 @@ textarea{
   margin-top: 10%;
 }
 
-@media(max-width:364px){
+/* @media(max-width:364px){
   .konten{
     display: flex;
     flex-direction: column;
@@ -397,4 +389,4 @@ textarea{
     margin-left: 9%;
     font-size: 7px;
   }
-}
+} */

@@ -4,31 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <script src="../script/changeKontak.js"></script>
 </head>
 <body>
-    <div class="container">
-        <header>
-            
-            <nav>
-                <a href="../index.html">Home</a></li>
-                <a href="product.html">Product</a></li>
-                <a href="#">About</a></li>
-                <a href="contact.html">Contact</a></li>
-                <a href="login.html">Login</a></li>
-            </nav>
-        </header>
+    
+  <header>    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Admin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="product.html">product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="login.html">Login</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+        <div class="container">
         <form id="formChangeKontak">
-            <label for="inputMaps">Maps </label>
-            <textarea type="text"  id="inputMaps" ><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31720.534641639446!2d106.8231662917261!3d-6.385376640709696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69eb8b7d6cabd3%3A0xdc77f7f5a8722e19!2sDepok%20Timur%2C%20Mekar%20Jaya%2C%20Kec.%20Sukmajaya%2C%20Kota%20Depok%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1720455745216!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></textarea><br><br>
-            <label for="inputWa" >No. Wa</label>
-            <input type="number" value="6281211499250" id="inputWa" ><br><br>
-            <label for="inputFb">Facebook </label>
-            <input type="text" value="Warteg Kimole" id="inputFb" name="email"><br><br>
+            <div class="mb-1 row">
+            <label for="inputMaps" class="col-sm-2 col-form-label">Maps </label>
+            <div class="col-sm-10">
+            <textarea type="text" rows="3" id="exampleFormControlTextarea1"  id="inputMaps" class="form-control " ><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31720.534641639446!2d106.8231662917261!3d-6.385376640709696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69eb8b7d6cabd3%3A0xdc77f7f5a8722e19!2sDepok%20Timur%2C%20Mekar%20Jaya%2C%20Kec.%20Sukmajaya%2C%20Kota%20Depok%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1720455745216!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></textarea><br><br>
+        </div>
+        </div>
+
+        <div class="mb-1 row">
+            <label for="inputWa" class="col-sm-2 col-form-label">Wa</label>
+            <div class="col-sm-10">
+            <input type="number" class="form-control" value="6281211499250" id="inputWa" ><br><br>
+        </div>
+    </div>
+        <div class="mb-1 row">
+            <label for="inputFb" class="col-sm-2 col-form-label">FB</label>
+            <div class="col-sm-10">
+            <input type="text" value="Warteg Kimole" class="form-control" id="inputFb" name="email"><br><br>
             <input type="submit" value="Submit">
+        </div>
+    </div>
+            
             
         </form>
     </div>    
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>

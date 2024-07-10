@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5E3C7;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background: #3A3A3A;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.konten{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.hal2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 10%;
+}
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.left {
+    background-color: #F6E6CB;
+    z-index: 1;
+}
+
+.right {
+    background-color: #A0937D;
+    clip-path: polygon(100% -400%, 100% 100%, 0 100%);
+    color: white;
+}
+#awikwok{
+    width: 80%;
+}
+.content h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+hr {
+    width: 50%;
+    margin: 10px auto;
+}
+p{
+    z-index: 2;
+}
+.content .image-placeholder {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #A3B78A;
+    color: #000;
+    cursor: pointer;
+}
+.judul1 {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.konten2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.konten2Img{
+    flex: 1;
+}
+.konten2Img2{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.konten2Text{
+    flex: 1.5;
+}
+.kelebihan1, .kelebihan2, .kelebihan3{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+.kelebihan1Teks, .kelebihan2Teks, .kelebihan3Teks{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+ .kelebihan1 img,  .kelebihan2 img, .kelebihan3 img{
+    width: 13%;
+    height: auto;
+    
+}
+.hal3{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    display: flex;
+    flex-direction: column;
+}
+.judul2{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.konten3Teks{
+    flex: 1.5;
+}
+.konten3Img{
+    flex: 1;
+}
+
+.konten3{
+    display: flex;
+    flex-direction: row;
+}
