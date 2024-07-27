@@ -16,27 +16,27 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 name: "Kentang Balado",
                 price: 4000,
-                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihaMaDbfKuKOdzMSD3YZNGqS1qsf1lgzk8T2-VlWCR0CQ8eUZ-lpWHCVobZ5sEZ-Ijay66LXOtPw6Yt2e6GIurPhW_RC2Ot8ofk=w1920-h948"
+                imageUrl: "https://asset.kompas.com/crops/jbRtm27K1RSbjbCMaII4gPtH41Q=/67x0:723x437/750x500/data/photo/2018/10/24/3144434666.jpg"
             },
             {
                 name: "Ayam Goreng",
                 price: 7000,
-                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbAe2VuU8JSK6QojZlQF5F6nLlUFGIK3_8w561GsYvWLjuyF28ByUk00EhQ_GlUTDvnPn7S9Lbu3gApNs2xeeQSw6TrgFINsA=w1920-h948"
+                imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw3lPdQ6nAgWUnMZeQVdffvsmz5W93uQN_Vw&s"
             },
             {
                 name: "Tempe Orek",
                 price: 4000,
-                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihbFbEW2SG1rBo5CbWR49Ufq2UgESiqwh9yjJiAmNrfS5VWBSrAOHHWePu57fxWnbasQql8qOplPuQlMv9TqC3n30qYGfXb20Og=w1920-h948"
+                imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAjgwPCJo26S4Y_z7kodYDtnSj8gD8myl2pQ&s"
             },
             {
                 name: "Telur Balado",
                 price: 4000,
-                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZSeYx7N4NLjHSwofImcakrB8A4a_qITtPm_0I1k2_EkzWPAznQ9rDehaRMaUwkhZcRRB6ASdjcjuN1bIIVvah2uMtPUx0xC_o=w1920-h948"
+                imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtH3xmEtKP6pmOBTPagkz0L0LQEHeufx-rDQ&s"
             },
             {
                 name: "Telur Dadar",
                 price: 4000,
-                imageUrl: "https://lh3.googleusercontent.com/drive-viewer/AKGpihZ220WVc6DuOdwoqAtahxiSapU1u7R6xJ2jLQVYDa8hTc8CguIYr1rZ0eBQZP2K5CctCs1Ph7PNRmWUVWWF0Z8a8eWNf9COhes=w1920-h948"
+                imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb829Rd4hMcImUKQs159KpNeVFFfHvblm6BA&s"
             }
         ];
         localStorage.setItem('foods', JSON.stringify(defaultFoods));
