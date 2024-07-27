@@ -1,0 +1,48 @@
+body {
+  background-color: #f5e3c7;
+  color: black;
+  overflow-x: hidden;
+  
+}
+main {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-areas:
+      "head"
+      "content"
+      ;
+    grid-template-rows: auto 1fr; /* Menentukan tinggi baris agar area bisa ditata dengan baik */
+  }
+  
+  header {
+    grid-area: head;
+    position: sticky;
+   
+    background: lightgray; /* Contoh styling untuk header */
+  }
+  
+  article {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+h1{
+    font-size: 3rem;
+     
+    padding: 10px;
+    text-align: center;
+
+}
+#aboutWarteg{
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.nav-item{
+  margin-right: 40px;
+}

@@ -17,7 +17,7 @@ header{
   top:0;
   display: inline-block;
   width: 100%;
-  height: 7%;
+  height: 0px;
   text-align: center;
   align-items: center;
   background-color:rgb(26, 25, 25);
@@ -62,7 +62,7 @@ header{
   
 }
 input{
-  margin: 10px;
+  margin: 5px;
 }
 .formMakanan{
   display: flex;
@@ -339,9 +339,10 @@ hr{
 .formIlang{
   display: none;
   position: absolute;
-  
   background-color: white;
   height: 70vh;
+  justify-content: center;
+  top: 15%;
 }
 .label, .masukkan{
   flex: 1;
@@ -350,12 +351,23 @@ hr{
   color: black;
   margin-left: 10%;
 }
+.masukkan {
+  margin-top: 15%;
+}
+
 textarea{
-  margin-left: 3.5%;
+  margin-left: 5px;
 }
 .formIlang h2{
   color: black;
   text-align: center;
+}
+.submitCekout{
+  display: flex;
+  flex-direction: row;
+}
+.submitCekout button{
+  margin: 1px;
 }
 #beli{
   margin-top: 10%;

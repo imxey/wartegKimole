@@ -13,9 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
-        
-        
-        
         if (username === validUsername && password === validPassword) {
             localStorage.setItem('isLoggedIn', 'true');
             window.location.href = '../html/admin.html';
@@ -27,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             else{
                 loginForm.reset();
-                window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs';
+                window.location.href = '../index.html';
             }
         }
         
@@ -125,7 +122,6 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('foods', JSON.stringify(foods));
         renderFoodList();
     }
-
     // Editing a Food Item
     window.editFood = function(index) {
         let foods = JSON.parse(localStorage.getItem('foods')) || [];
@@ -141,7 +137,6 @@ document.addEventListener('DOMContentLoaded', function() {
             updateFood(index);
         }
     }
-
     // Updating a Food Item
     function updateFood(index) {
         let foods = JSON.parse(localStorage.getItem('foods')) || [];
@@ -155,7 +150,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const submitButton = document.getElementById('tambahMakanan');
         submitButton.textContent = 'Tambah Makanan';
         submitButton.onclick = foodForm.onsubmit;
-
         foodForm.reset();
         renderFoodList();
     }

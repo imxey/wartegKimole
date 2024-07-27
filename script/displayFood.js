@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const beliMakanForm = document.getElementById('beliMakanForm');
     const formIlang = document.querySelector('.formIlang');
     const checkout = document.getElementById('checkout');
+    const keluar = document.getElementById('keluar');
     let purchasedItems = JSON.parse(localStorage.getItem('purchasedItems')) || [];
     if (!localStorage.getItem('foods')) {
         window.location.reload();
@@ -94,17 +95,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Tambahkan item yang dibeli ke array purchasedItems
         purchasedItems.push(purchasedItem);
-
         // Simpan array ke localStorage
         localStorage.setItem('purchasedItems', JSON.stringify(purchasedItems));
-
         // Hitung total harga semua item yang dibeli
         let finalPrice = purchasedItems.reduce((acc, item) => acc + item.totalPrice, 0);
-
-        
         // Tampilkan total harga ke elemen beli
         beli.innerHTML = `Beli - Total Harga: Rp ${finalPrice}`;
-
         // Tampilkan daftar pembelian
         renderPurchasedItems();
     };
@@ -141,7 +137,10 @@ document.addEventListener('DOMContentLoaded', function() {
     beli.addEventListener('click', function() {
         // Munculkan form pembelian
         formIlang.style.display = 'block';
-
+        keluar.addEventListener('click', function() {
+            // Sembunyikan form pembelian
+            formIlang.style.display = 'none';
+        })
         // Event listener untuk tombol checkout di dalam form pembelian
         checkout.addEventListener('click', async function(event) {
             event.preventDefault();
